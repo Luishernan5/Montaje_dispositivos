@@ -1,4 +1,4 @@
-# Archivo de configuracion de main.sh:
+# Archivo de configuracion de main.sh
 
 function salir() {
     exit 0
