@@ -1,6 +1,6 @@
 import subprocess
 
-# funcion para montar un dispositivo :
+# funcion para montar un dispositivo:
 def montar_dispositivo():
     dispositivo = input("Ingrese el nombre del dispositivo (sda1): ")
     punto_montaje = input("Ingrese el punto de montaje (/mnt/usb): ")
