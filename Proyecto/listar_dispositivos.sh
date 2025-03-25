@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Listando dispositivos conectados....."
+echo "Listando dispositivos conectados...."
 
 lsblk -dn -o NAME,SIZE,MOUNTPOINT,MAJ:MIN | while read line; do
     nombre=$(echo $line | awk '{print $1}')
